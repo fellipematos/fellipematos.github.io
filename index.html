@@ -1,81 +1,135 @@
 <!DOCTYPE html>
-    <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<!--=============== META TAGS ===============-->
-		<meta name="description" content="">
-		<meta name="keywords" content="suporte, desenvolvimento, web, programação, site, ecommerce">
-		<meta name="author" content="Fellipe Matos">
-		<meta name="theme" content="bedimcode">
+<html lang="pt-BR">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-        
-        <!--=============== REMIX ICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== META TAGS ===============-->
+    <meta name="description" content="">
+    <meta name="keywords" content="suporte, desenvolvimento, web, programação, site, ecommerce">
+    <meta name="author" content="Fellipe Matos">
+    <meta name="theme" content="bedimcode">
 
-        <title>Fellipe Matos - suporte.web</title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="profile container">
-            <!-- Theme button -->
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-            <div class="profile__container grid">
-                <div class="profile__data">
-                    <div class="profile__border">
-                        <div class="profile__perfil">
-                            <!-- Insert your image, according to the example size of the portfolio -->
-                            <img src="assets/img/perfil.jpg" alt="">
-                        </div>
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Fellipe Matos - suporte.web</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="profile container">
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <!-- Insert your image, according to the example size of the portfolio -->
+                        <img src="assets/img/perfil.jpg" alt="">
                     </div>
-
-                    <h2 class="profile__name">Fellipe Matos</h2>
-                    <h3 class="profile__profession">Web developer</h3>
-
-                    <ul class="profile__social">
-                        <a href="https://github.com/fellipematos" target="_blank" class="profile__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-						<a href="https://twitter.com/matosfellipe_" target="_blank" class="profile__social-link">
-                            <i class="ri-twitter-line"></i>
-                        </a>
-                    </ul>
                 </div>
 
-                <div class="profile__buttons">
-                    <!-- Insert your CV -->
-                    <a href="https://api.whatsapp.com/send?phone=5511963889472&text=Ol%C3%A1%20%F0%9F%91%8B%F0%9F%8F%BC%2C%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!" target="_blank" class="button">
-                        Whatsapp <i class="ri-whatsapp-line"></i>
-                    </a>
+                <h2 class="profile__name">Fellipe Matos</h2>
+                <h3 class="profile__profession">Web developer</h3>
 
-                    <!--div class="profile__buttons-small">
-                        <!-- Insert a real number plus country code - ->
-                        <a >
-                            <i class="ri-whatsapp-line"></i>
-                        </a>
-                    </div-->
+                <ul class="profile__social">
+                    <a href="https://github.com/fellipematos" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://twitter.com/matosfellipe_" target="_blank" class="profile__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                    <a href="https://zero.digitalpress.blog/" target="_blank" class="profile__social-link">
+                        <i class="ri-file-text-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__buttons">
+                <a href="https://api.whatsapp.com/send?phone=5511963889472&text=Ol%C3%A1%20%F0%9F%91%8B%F0%9F%8F%BC%2C%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!"
+                    target="_blank" class="button">
+                    Whatsapp <i class="ri-whatsapp-line"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projetos
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="assets/img/desenvolvimento-web-modelo-exemplo-restaurante-taste-modelo.jpg" alt=""
+                            class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Modelo Restaurante</h3>
+                                <a href="https://taste-rho.vercel.app/" class="projects__button button button__small"
+                                    target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/desenvolvimento-web-kdmeuchip-tangara-da-serra.jpg" alt=""
+                            class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Página Web</h3>
+                                <a href="https://www.kdmeuchip.com.br/" class="projects__button button button__small"
+                                    target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/em-breve-novos-projetos.gif" alt="" class="projects__img">
+                    </article>
+
                 </div>
             </div>
-        </header>
+        </section>
+    </main>
 
-        <!--=============== FOOTER &#169; ===============-->
-        <footer class="footer container">
-            <span class="footer__copy">
-                
-            </span>
-        </footer>
+    <!--=============== FOOTER &#169; ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Fellipe Matos 2022. Todos os direitos reservados.
+        </span>
+    </footer>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
