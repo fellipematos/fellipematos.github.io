@@ -1,3 +1,3 @@
 # myportifolio
 
-:link: > [LINK](https://fellipematos.github.io/myportifolio/)
+:link: > [LINK](https://fellipematos.github.io/web/)
