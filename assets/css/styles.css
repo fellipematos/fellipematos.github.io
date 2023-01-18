@@ -73,6 +73,14 @@ a {
   text-decoration: none;
 }
 
+.link{
+  color: var(--text-color);
+}
+
+.link:hover{
+  color: var(--first-color);
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -360,17 +368,26 @@ body.dark-theme {
   bottom: 0;
 }
 
-/*=============== SUPORT ===============*/
-.suport_links{
-  display: inline-flex;
-  align-items: center;
+/*=============== ABOUT ===============*/
+
+.about{
   justify-content: center;
-  column-gap: 3rem;
 }
 
+.about_content{
+  max-width: 40rem;
+  padding: 0.5em 0.2em;
+}
+
+.about_itens, li{
+  padding: 0.5em 0.8em;
+}
+
+/*=============== SUPORT ===============*/
 .suport_link{
   font-size: var(--h3-font-size);
   color: var(--title-color);
+  padding: 5rem 2rem;
 }
 
 .suport_link:hover{
