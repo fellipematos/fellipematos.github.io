@@ -160,27 +160,27 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-    background: url(../../assets/project/configuracao-layout-integracoes-loja-virtual-nuvemshop-empoderaskin-cosmeticos.jpg) left/cover;
+    background: url(../img/project/configuracao-layout-integracoes-loja-virtual-nuvemshop-empoderaskin-cosmeticos.jpg) left/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-    background: url(../../assets/project/desenvolvimento-web-kdmeuchip-tangara-da-serra.jpg) left/cover;
+    background: url(../img/project/desenvolvimento-web-kdmeuchip-tangara-da-serra.jpg) left/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-    background: url(../../assets/project/configuracao-layout-integracoes-loja-virtual-nuvemshop-skinhealth-cosmeticos.jpg) left/cover;
+    background: url(../img/project/configuracao-layout-integracoes-loja-virtual-nuvemshop-skinhealth-cosmeticos.jpg) left/cover;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-    background: url(../../assets/project/desenvolvimento-web-modelo-exemplo-restaurante-taste-modelo.jpg) center/cover;
+    background: url(../img/project/desenvolvimento-web-modelo-exemplo-restaurante-taste-modelo.jpg) center/cover;
 }
 
 /* Project 5 */
 .card:nth-child(5) {
-    background: url(../../assets/project/em-breve-novos-projetos.gif) center center/cover;
+    background: url(../img/project/em-breve-novos-projetos.gif) center center/cover;
 }
 
 /* Project 6 
