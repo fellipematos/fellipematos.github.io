@@ -2,197 +2,222 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--=============== META TAGS ===============-->
-    <meta name="description" content="">
-    <meta name="keywords" content="suporte, desenvolvimento, web, programação, site, ecommerce, loja virtual, python">
-    <meta name="author" content="Fellipe Matos">
-    <meta name="theme" content="bedimcode">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <title>Fellipe Matos - Suporte Web</title>
+    <meta name="title" content="Fellipe Matos - Suporte Web" />
 
-    <!--=============== REMIX ICONS ===============-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/utilities.css" />
 
-    <title>Fellipe Matos - suporte.web</title>
 </head>
 
 <body>
-    <!--=============== HEADER ===============-->
-    <header class="profile container">
-        <!-- Theme button -->
-        <i class="ri-moon-line change-theme" id="theme-button"></i>
+    <header id="hero">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container">
+                <!-- Logo -->
+                <h1 id="logo">
+                    <a href="#">
+                        <img src="" />
+                    </a>
+                </h1>
+                <!-- Navbar links -->
+                <ul class="nav-menu">
+                    <li>
+                        <a class="nav-link btn btn-primary" href="#"> SERVIÇOS <i class="fas fa-arrow-right"></i></a>
+                    </li>
 
-        <div class="profile__container grid">
-            <div class="profile__data">
-                <div class="profile__border">
-                    <div class="profile__perfil">
-                        <!-- Insert your image, according to the example size of the portfolio -->
-                        <img src="assets/img/perfil.jpg" alt="">
+                    <!-- Toggle switch -->
+                    <div class="theme-switch">
+                        <input type="checkbox" id="switch" />
+                        <label class="toggle-icons" for="switch">
+                            <img class="moon" src="assets/moon.svg" />
+                            <img class="sun" src="assets/sun.svg" />
+                        </label>
                     </div>
-                </div>
-
-                <h2 class="profile__name">Fellipe Matos</h2>
-                <h3 class="profile__profession">Web developer</h3>
-
-                <ul class="profile__social">
-                    <a href="https://github.com/fellipematos" target="_blank" class="profile__social-link">
-                        <i class="ri-github-line"></i>
-                    </a>
-                    <a href="https://twitter.com/matosfellipe_" target="_blank" class="profile__social-link">
-                        <i class="ri-twitter-line"></i>
-                    </a>
-                    <a href="https://www.tabnews.com.br/fellipematos" target="_blank" class="profile__social-link">
-                        <iconify-icon icon="gg:tab"></iconify-icon>
-                    </a>
-                    <!--a href="https://zero.digitalpress.blog/" target="_blank" class="profile__social-link">
-                        <i class="ri-file-text-line"></i>
-                    </a-->
+                    <!-- Hamburger menu -->
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
+        </nav>
 
-            <div class="profile__buttons">
-                <a href="https://api.whatsapp.com/send?phone=5511963889472&text=Ol%C3%A1%20%F0%9F%91%8B%F0%9F%8F%BC%2C%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!" target="_blank" class="button">
-                    Whatsapp <i class="ri-whatsapp-line"></i>
+        <section class="header-container">
+            <img class="profile-image" src="assets/perfil.jpg" alt="" />
+            <h3 class="name">Fellipe Matos</h3>
+            <h4 class="subname">WEBMASTER</h4>
+
+            <div class="box-icon">
+                <a href="https://github.com/fellipematos" target="_blank" class="icon">
+                    <i class="ri-github-line"></i>
+                </a>
+                <a href="https://twitter.com/matosfellipe_" target="_blank" class="icon">
+                    <i class="ri-twitter-line"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/matosfellipe" target="_blank" class="icon">
+                    <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+
+                </a>
+                <a href="https://www.tabnews.com.br/fellipematos" target="_blank" class="icon">
+                    <iconify-icon icon="gg:tab"></iconify-icon>
                 </a>
             </div>
-        </div>
+
+            <a href="https://api.whatsapp.com/send?phone=5511963889472&text=Ol%C3%A1%20%F0%9F%91%8B%F0%9F%8F%BC%2C%20preciso%20de%20mais%20informa%C3%A7%C3%B5es!"
+                class="btn btn-secondary" target="_blank"><i class="ri-whatsapp-line"></i> Vamos conversar!</a>
+
+            <div id="about" class="content-text">
+                <div class="division"></div>
+                <h3>Olá 👋, seja bem vindo!</h3>
+                <p>
+                    📦 Atualmente estou trabalhando como Gerente de E-commerce, responsável pela parte operacional,
+                    deste a
+                    impressão do pedido até a postagem nas transportadoras.
+                </p>
+                <p>
+                    🌱 Em constante aprendizada, em Python para desenvolvimento web com Flask e segurança da informação.
+                </p>
+                <p>
+                    🔍💼 Estou procurando oportunidades na área de desenvolvimento web, ainda tenho muito coisa para
+                    aprender,
+                    porém tenho uma boa base e gosto de encarar novos desafios.
+                </p>
+                <p>
+                    ❤️ == 👧 minha filha Bella, 🚀 tecnologia, 💻 hardware - iot, 🎮♟ video game, 🎧 <a
+                        href="https://open.spotify.com/user/12158181244?si=38523899b03d4e32">música</a>, 📝 <a
+                        href="https://www.tabnews.com.br/fellipematos">estudar</a>, 🚗 carros.
+                </p>
+            </div>
+
+        </section>
     </header>
 
-    <!--=============== MAIN ===============-->
-    <main class="main">
-        <section class="filters container">
-            <!--=============== FILTERS TABS ===============-->
-            <ul class="filters__content">
-                <button class="filters__button filter-tab-active" data-target="#projects">
-                    Projetos
-                </button>
-                <button class="filters__button" data-target="#about">
-                    Sobre
-                </button>
-            </ul>
-            <div class="filters__sections">
-                <!--=============== PROJECTS ===============-->
-                <div class="projects__content grid filters__active" data-content id="projects">
+    <!-- Projects -->
+    <section id="projects" class="project-container container">
+        <div class="division"></div>
+        <div class="content-text">
+            <h2>Projetos</h2>
+            <p>Projetos em que desenvolvi e participei configurando, atualizando, adicionando melhorias e algumas
+                ideias.</p>
+        </div>
+        <article class="project">
 
-                    <article class="projects__card">
-                        <img src="assets/img/configuracao-layout-integracoes-loja-virtual-nuvemshop-skinhealth-cosmeticos.jpg" alt="Loja Virtual - Skinhealth" class="projects__img">
-                        <div class="projects__modal">
-                            <div>
-                                <span class="projects__subtitle">Web</span>
-                                <h3 class="projects__title">Página Web</h3>
-                                <a href="https://www.skinhealth.com.br/" class="projects__button button button__small"
-                                    target="_blank">
-                                    <i class="ri-link"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="projects__card">
-                        <img src="assets/img/desenvolvimento-web-kdmeuchip-tangara-da-serra.jpg" alt="Site - KDMeuChip" class="projects__img">
-                        <div class="projects__modal">
-                            <div>
-                                <span class="projects__subtitle">Web</span>
-                                <h3 class="projects__title">Página Web</h3>
-                                <a href="https://www.kdmeuchip.com.br/" class="projects__button button button__small"
-                                    target="_blank">
-                                    <i class="ri-link"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="projects__card">
-                        <img src="assets/img/desenvolvimento-web-modelo-exemplo-restaurante-taste-modelo.jpg" alt="Template Modelo" class="projects__img">
-                        <div class="projects__modal">
-                            <div>
-                                <span class="projects__subtitle">Web</span>
-                                <h3 class="projects__title">Modelo Restaurante</h3>
-                                <a href="https://taste-rho.vercel.app/" class="projects__button button button__small"
-                                    target="_blank">
-                                    <i class="ri-link"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="projects__card">
-                        <img src="assets/img/em-breve-novos-projetos.gif" alt="" class="projects__img">
-                    </article>
-
-                </div>
-
-                <!--=============== ABOUT ===============-->
-                <div class="about" data-content id="about">
-                    <div class="about_content">
-                        <h1>Olá 👋, seja bem vindo!</h1>
-                        <ul class="about_itens">
-                            <li>📌 Me chamo Fellipe Matos, e um prazer ter voce por aqui, sinta-se à vontade para me perguntar o que quiser, estou à disposição..</li>
-                            <li>📦 Atualmente estou trabalhando como Gerente de E-commerce, responsável pela parte operacional, deste a impressão do pedido até a postagem nas transportadoras.</li>
-                            <li>🌱 Em constante aprendizado, estudando Python para desenvolvimento web com Flask e segurança da informação.</li>
-                            <li>🔍💼 Estou procurando oportunidades na área de desenvolvimento web, ainda tenho muito coisa para aprender, mais tenho uma boa base e gosto de encarar novos desafios.</li>
-                            <li>❤️ = 🚀 tecnologia, 💻 hardware, 🎮♟ game, <a href="https://open.spotify.com/user/12158181244?si=38523899b03d4e32" class="link">🎧 música <i class="ri-play-fill"></i></a>, <a href="https://www.tabnews.com.br/fellipematos"  class="link">📝 blog <i class="ri-bookmark-line"></i>
-                            </a>.</li>
-                        </ul>
-
-                        <BR>
-
-                        <p>
-                            <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black" alt="Linux">
-                            <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Windows">
-                        </p>
-
-                        <BR>
-
-                        <p>
-                            <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" alt="Python">
-                            <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown">
-                            <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
-                            <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3">
-                            <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&amp;logo=SASS&amp;logoColor=white" alt="SASS">
-                            <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" alt="JavaScript">
-                            <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP">
-                            <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&amp;logo=gnu-bash&amp;logoColor=white" alt="Shell Script">
-                        </p>
-
-                        <BR>
-
-                        <p>
-                            <img src="https://komarev.com/ghpvc/?username=fellipematos&style=for-the-badge&color=lightgrey" alt="fellipematos" />
-                        </p>
+            <!-- Project Empodera Skin - Cosmeticos -->
+            <div href="" class="card">
+                <div class="project-info">
+                    <div class="project-bio">
+                        <h3>Loja Virtual</h3>
+                        <p>Nuvemshop</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://www.empoderaskin.com.br" target="_blank"><i class="fas fa-globe"></i></a>
                     </div>
                 </div>
-
             </div>
-        </section>
-    </main>
 
-    <!--=============== FOOTER ===============-->
-    <footer class="footer container">
-        <span class="footer__copy">
-            <a href="https://forms.gle/BoFKvYyzVFktEyeS8" class="suport_link" target="_blank">
-                <i class="ri-mail-send-line"></i> - Quero ser cliente
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=5511963889472&text=https://wa.me/5511963889472?text=Ol%C3%A1+%F0%9F%91%8B%F0%9F%8F%BC%2C+vamos+conversar%3F" class="suport_link" target="_blank">
-                <i class="ri-chat-smile-2-line"></i> - Vamos conversar?
-            </a>
-        </span>
-        <span class="footer__copy">
-            &#169; Por Fellipe Matos 2022
-        </span>
+            <!-- Project KDMeuchip - Acessorios e Manutenção de Smartphone - Tangará da Serra -->
+            <div href="" class="card">
+                <div class="project-info">
+                    <div class="project-bio">
+                        <h3>Página Web</h3>
+                        <p>Wordpress</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://www.kdmeuchip.com.br" target="_blank"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Porject Skinhealth - Cosmeticos -->
+            <div href="" class="card">
+                <div class="project-info">
+                    <div class="project-bio">
+                        <h3>Loja Virtual</h3>
+                        <p>Nuvemshop</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="http://www.skinhealth.com.br" target="_blank"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Template Restaurante Taste -->
+            <div href="" class="card">
+                <div class="project-info">
+                    <div class="project-bio">
+                        <h3>Modelo Restaurante</h3>
+                        <p>Javascript</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/fellipematos/taste" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://taste-rho.vercel.app/" target="_blank"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project EM BREVE -->
+            <div href="" class="card">
+                <div class="project-info">
+                    <div class="project-bio">
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/fellipematos" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </article>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <!-- Social links -->
+            <div class="social">
+                <div class="box-icon">
+                    <a href="https://github.com/fellipematos" target="_blank" class="icon">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://twitter.com/matosfellipe_" target="_blank" class="icon">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/matosfellipe" target="_blank" class="icon">
+                        <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+                    </a>
+                    <a href="https://www.tabnews.com.br/fellipematos" target="_blank" class="icon">
+                        <iconify-icon icon="gg:tab"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Attribution -->
+            <br>
+            <div class="attribution">
+                <a href="https://github.com/fellipematos/fellipematos.github.io" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="https://user-images.githubusercontent.com/62628408/157202263-9174da24-b19a-4017-9b7c-a1d26ae8f014.svg"
+                        alt="attribution" width="200px" />
+                </a>
+            </div>
+
+        </div>
     </footer>
-
-    <!--=============== SCROLLREVEAL MAIN JS===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/main.js"></script>
-
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
