@@ -10,9 +10,11 @@
 - <a href="https://github.com/frankiefab100">Franklin U.O. Ohaegbulam</a>
 - <a href="https://openpeeps.com/">Open Peeps Illustration</a> by <a href="https://twitter.com/pablostanley">Pablo Stanley</a> 
 
+<!--
 <hr>
 
 <img src="https://forthebadge.com/images/badges/built-by-developers.svg">
 <img src="https://forthebadge.com/images/badges/built-with-love.svg">
 <img src="https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg">
 <img src="https://forthebadge.com/images/badges/open-source.svg">
+-->
