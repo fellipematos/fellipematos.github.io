@@ -15,3 +15,7 @@ Este é o meu portfólio pessoal desenvolvido utilizando **Next.js**, **Tailwind
 ## 🏠 Visualização
 
 Você pode visualizar o portfólio ao vivo [aqui](https://fellipematos.github.io/).
+
+## Ref.:
+
+Tutorial utilizado para fazer deploy do portifolio, [Link](https://racoelho.com.br/posts/como-hospedar-um-app-nextjs-no-github-pages).
