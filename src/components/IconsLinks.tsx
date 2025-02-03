@@ -1,5 +1,5 @@
 import { Link } from "@heroui/react";
-import { FaGithub, FaBehance, FaLinkedinIn, FaRegFolder, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaRegFolder, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 
@@ -9,10 +9,6 @@ export function IconsLinksBio() {
             <Link href="https://github.com/fellipematos" className="text-gray-700 hover:text-blue-500 text-4xl" target="_blank">
                 <FaGithub />
             </Link>
-
-            {/*<Link href="#" className="text-gray-700 hover:text-blue-500 text-4xl" target="_blank" isDisabled>
-                <FaBehance />
-            </Link>*/}
 
             <Link href="https://wa.me/+5511963889472" className="text-gray-700 hover:text-blue-500 text-4xl" target="_blank">
                 <FaWhatsapp />

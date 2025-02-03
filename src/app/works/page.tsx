@@ -12,14 +12,14 @@ function ProjectPage() {
             title: "Osint Brazuca",
             subtitle: "Documentação",
             description: "O OSINT Brazuca é um projeto de repositório que visa centralizar informações, fontes e técnicas de OSINT (Open Source Intelligence) dentro do contexto brasileiro. Após resolver uma issue no repositório oficial, realizei um fork e desenvolvi uma página de documentação utilizando Python e MkDocs, proporcionando uma interface mais acessível e organizada para os usuários e colaboradores do projeto.",
-            tools: [<FaPython />, <SiMaterialformkdocs />],
+            tools: [<FaPython key="python"/>, <SiMaterialformkdocs key="Mkdocs"/>],
             gallery: ["works/1.jpg", "works/2.jpg", "works/3.jpg", "works/4.jpg"]
         },
         {
             title: "Emprega Dados",
             subtitle: "Desenvolvimento Web",
             description: "A Emprega Dados é uma empresa especializada em consultoria e treinamento na área de dados. O projeto envolveu o desenvolvimento de uma landing page em WordPress com Elementor, destacando a missão e os serviços oferecidos. Além disso, criei uma página de captura de leads para promover a pós-graduação em parceria com a Universidade Anhanguera, proporcionando uma maneira eficaz de conversão de visitantes em possíveis alunos.",
-            tools: [<FaWordpress />],
+            tools: [<FaWordpress key="wordpress"/>],
             gallery: ["works/5.jpg", "works/6.jpg", "works/7.jpg", "works/8.jpg"]
         },
         {
@@ -47,21 +47,21 @@ function ProjectPage() {
             title: "Monstrão Lancheria",
             subtitle: "Social Media",
             description: "Monstro Lanches é uma lanchonete gourmet de hambúrgueres localizada em Joinville, SC. Para este projeto, desenvolvi artes gráficas para redes sociais (Facebook e Instagram), focando na promoção dos produtos e fortalecimento da presença digital da marca.",
-            tools: [<SiCanva />],
+            tools: [<SiCanva key="Canva"/>],
             gallery: ["works/20.jpg", "works/21.jpg", "works/22.jpg", "works/23.jpg"]
         },
         {
             title: "Tomanik Pizzas",
             subtitle: "Social Media",
             description: "A Tomanik Pizzas é uma pizzaria localizada em Joinville, SC, especializada em oferecer uma experiência culinária única. Para este projeto, criei artes publicitárias para a divulgação local e digital, utilizando a plataforma Canva. O objetivo foi criar materiais atrativos e impactantes para promover a pizzaria, destacando suas ofertas e diferenciais de forma visualmente envolvente e eficaz, com um foco especial na promoção digital.",
-            tools: [<SiCanva />],
+            tools: [<SiCanva key="Canva"/>],
             gallery: ["works/28.jpg", "works/29.jpg", "works/30.jpg", "works/31.jpg"]
         },
         {
             title: "Shinarai Sushi",
             subtitle: "Design Gráfico",
             description: "O Shinarai Sushi é um restaurante japonês especializado em sushis e pratos orientais gourmet. O projeto envolveu o desenvolvimento de um cardápio digital e embalagens de viagem para delivery, com foco nas receitas artesanais exclusivas da casa. As artes foram criadas utilizando Illustrator e Photoshop, garantindo que o design transmitisse a sofisticação e a qualidade da marca. As embalagens e o cardápio foram projetados para uma experiência diferenciada, refletindo o padrão elevado e o cuidado com os detalhes do restaurante.",
-            tools: [<SiAdobeillustrator />, <SiAdobephotoshop />],
+            tools: [<SiAdobeillustrator key="Illustrator"/>, <SiAdobephotoshop key="Photoshop"/>],
             gallery: ["works/24.jpg", "works/25.jpg", "works/26.jpg", "works/27.jpg"]
         },
         {

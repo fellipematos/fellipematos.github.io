@@ -1,4 +1,4 @@
-import { Link, Image } from "@heroui/react";
+import { Image } from "@heroui/react";
 import { IconsLinksBio } from "@/components/IconsLinks";
 
 

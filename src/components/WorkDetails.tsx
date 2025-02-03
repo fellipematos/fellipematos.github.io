@@ -1,6 +1,7 @@
 "use client";
 
 import { FC, useState } from "react";
+import { Image } from "@heroui/react";
 import { MdOutlineClose, MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md";
 
 
@@ -52,7 +53,7 @@ const ServicesList: FC<ServicesListProps> = ({ services }) => {
                     <div className="grid grid-cols-2 gap-4 order-1 md:order-1">
                         {service.gallery.map((image, imgIndex) => (
                             <div key={imgIndex} className="relative">
-                                <img
+                                <Image
                                     src={image}
                                     alt={`Gallery Image ${imgIndex + 1}`}
                                     className="w-full h-full object-cover rounded-lg cursor-pointer"
@@ -72,7 +73,7 @@ const ServicesList: FC<ServicesListProps> = ({ services }) => {
                             {service.tools.map((tool, idx) => (
                                 <div key={idx} className="text-2xl text-gray-600">
                                     {typeof tool === "string" ? (
-                                        <img src={tool} className="w-6 h-6 object-contain" />
+                                        <Image src={tool} className="w-6 h-6 object-contain" />
                                     ) : (
                                         <span className="fill-gray-600">{tool}</span>
                                     )}
@@ -93,7 +94,7 @@ const ServicesList: FC<ServicesListProps> = ({ services }) => {
                         >
                             <MdOutlineArrowBackIos />
                         </button>
-                        <img src={modalImage} alt="Modal Image" className="max-w-full max-h-screen object-contain" />
+                        <Image src={modalImage} alt="Modal Image" className="max-w-full max-h-screen object-contain" />
                         <button
                             onClick={() => nextImage(services[0].gallery)}
                             className="absolute right-4 text-white bg-gray-900 rounded-full p-2"
