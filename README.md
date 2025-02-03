@@ -1,20 +1,17 @@
-## Portfólio Template - HTML
+# Meu Portfólio
 
-##### 📌 [ACESSAR MINHAS VERSÃO AQUI.](https://fellipematos.github.io/)
+Este é o meu portfólio pessoal desenvolvido utilizando **Next.js**, **TailwindCSS**, **TypeScript**, **HeroUI** e **React Icons**. O projeto foi criado a partir da documentação oficial do Next.js e TailwindCSS, com o objetivo de apresentar minhas habilidades e projetos de forma interativa e responsiva.
 
-<hr>
 
-#### DESIGN CREDIT
-- <a href="https://github.com/CommunityPro">Communitypro</a>
-- <a href="https://dribbble.com/shots/14385288-Portfolio-Landing-Page?utm_source=Clipboard_Shot&utm_campaign=oguzyagiz&utm_content=Portfolio%3A%20Landing%20Page&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=oguzyagiz&utm_content=Portfolio%3A%20Landing%20Page&utm_medium=Social_Share">Dribble Inspiration</a>
-- <a href="https://github.com/frankiefab100">Franklin U.O. Ohaegbulam</a>
-- <a href="https://openpeeps.com/">Open Peeps Illustration</a> by <a href="https://twitter.com/pablostanley">Pablo Stanley</a> 
+## 🚀 Tecnologias Utilizadas
 
-<!--
-<hr>
+- [Next.js](https://nextjs.org/) - Framework React para construção de aplicações web escaláveis.
+- [TailwindCSS](https://tailwindcss.com/) - Framework CSS utilitário para criação rápida de interfaces.
+- [TypeScript](https://www.typescriptlang.org/) - Superconjunto de JavaScript que adiciona tipagem estática.
+- [HeroUI](https://www.heroui.com/) - Uma biblioteca de UI para React que ajuda você a construir interfaces de usuário bonitas e acessíveis.
+- [React Icons](https://react-icons.github.io/react-icons/) - Conjunto de ícones para React.
 
-<img src="https://forthebadge.com/images/badges/built-by-developers.svg">
-<img src="https://forthebadge.com/images/badges/built-with-love.svg">
-<img src="https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg">
-<img src="https://forthebadge.com/images/badges/open-source.svg">
--->
+
+## 🏠 Visualização
+
+Você pode visualizar o portfólio ao vivo [aqui](https://fellipematos.github.io/).
